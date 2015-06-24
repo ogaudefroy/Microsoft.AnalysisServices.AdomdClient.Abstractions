@@ -9,6 +9,7 @@
     <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
     <projectUrl>https://github.com/ogaudefroy/Microsoft.AnalysisServices.AdomdClient.Abstractions</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>Set of abstraction classes for AdomdClient</summary>
     <description>$description$</description>
     <releaseNotes>First release.</releaseNotes>
     <copyright>$copyright$</copyright>
