@@ -10,8 +10,13 @@
     <projectUrl>https://github.com/ogaudefroy/Microsoft.AnalysisServices.AdomdClient.Abstractions</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
-    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <releaseNotes>First release.</releaseNotes>
     <copyright>$copyright$</copyright>
     <tags>Analysis Services SSAS ADOMD Adomdclient Microsoft</tags>
+    <dependencies>
+      <group targetFramework="net40">
+        <dependency id="Microsoft.AnalysisServices.AdomdClient" />
+      </group>
+    </dependencies>
   </metadata>
 </package>

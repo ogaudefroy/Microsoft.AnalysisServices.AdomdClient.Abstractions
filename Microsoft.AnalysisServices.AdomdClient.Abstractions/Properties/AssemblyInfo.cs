@@ -4,7 +4,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("Microsoft.AnalysisServices.AdomdClient.Abstractions")]
 [assembly: AssemblyDescription("Set of abstraction classes for AdomdClient")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Olivier GAUDEFROY")]
+[assembly: AssemblyCompany("Olivier GAUDEFROY, Arnaud DUFRANNE")]
 [assembly: AssemblyProduct("Microsoft.AnalysisServices.AdomdClient.Abstractions")]
 [assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]
