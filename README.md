@@ -6,12 +6,15 @@ Available interfaces:
  - IAdomdCommand: extracted from AdomdCommand, can be retrieved from a regular AdomdCommand with AdomdCommandWrapper or with CreateCommand on a IAdomdConnection
  
 Code documentation has been synched with MSDN documentation.
+
 AdomdClient version supported is 12.0
 
-Code sample:
+Usage:
 
     IAdomdConnection connection = new AdomdConnectionWrapper(new AdomdConnection());
     IAdomdCommand command = connection.CreateCommand();
     IAdomdCommand newCommand = new AdomdCommandWrapper(new AdomdCommand());
+
+NuGet Package avilabale here: https://www.nuget.org/packages/Microsoft.AnalysisServices.AdomdClient.Abstractions/
 	
 [![Build status](https://ci.appveyor.com/api/projects/status/0spql768wtea7i0j/branch/master?svg=true)](https://ci.appveyor.com/project/ogaudefroy/microsoft-analysisservices-adomdclient-abstraction/branch/master)
