@@ -1,4 +1,5 @@
-﻿using System.Reflection;
+using System;
+using System.Reflection;
 using System.Runtime.InteropServices;
 
 [assembly: AssemblyTitle("Microsoft.AnalysisServices.AdomdClient.Abstractions")]
