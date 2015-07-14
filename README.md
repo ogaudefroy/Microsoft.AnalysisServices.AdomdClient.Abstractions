@@ -16,5 +16,5 @@ Usage:
     IAdomdCommand newCommand = new AdomdCommandWrapper(new AdomdCommand());
 
 NuGet Package available here: https://www.nuget.org/packages/Microsoft.AnalysisServices.AdomdClient.Abstractions/
-	
-[![Build status](https://ci.appveyor.com/api/projects/status/0spql768wtea7i0j/branch/master?svg=true)](https://ci.appveyor.com/project/ogaudefroy/microsoft-analysisservices-adomdclient-abstraction/branch/master)
+
+[![Build status](https://ci.appveyor.com/api/projects/status/cvc5bjubnj73j1jv?svg=true)](https://ci.appveyor.com/project/ogaudefroy/microsoft-analysisservices-adomdclient-abstraction)	
