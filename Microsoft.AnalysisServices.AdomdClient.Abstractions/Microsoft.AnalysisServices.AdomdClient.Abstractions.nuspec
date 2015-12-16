@@ -12,8 +12,9 @@
     <summary>Set of abstraction classes for AdomdClient</summary>
     <description>$description$</description>
     <releaseNotes>
-      - 1.0.7.0 : First official release
+      - 1.0.9.0 : Added explicit cast on wrappers
       - 1.0.8.0 : Added CLSCompliant
+      - 1.0.7.0 : First official release
     </releaseNotes>
     <copyright>$copyright$</copyright>
     <tags>Analysis Services SSAS ADOMD Adomdclient Microsoft</tags>

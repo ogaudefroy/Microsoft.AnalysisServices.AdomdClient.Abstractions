@@ -197,5 +197,15 @@
         {
             _innerConnection.RefreshMetadata();
         }
+
+        /// <summary>
+        /// Explicit cast on AdomdConnection.
+        /// </summary>
+        /// <param name="wrapper">The connection wrapper.</param>
+        /// <returns>The inner connection.</returns>
+        public static explicit operator AdomdConnection(AdomdConnectionWrapper wrapper)
+        {
+            return wrapper._innerConnection;
+        }
     }
 }

@@ -137,5 +137,15 @@
         {
             _innerCommand.Dispose();
         }
+
+        /// <summary>
+        /// Explicit cast on AdomdCommand.
+        /// </summary>
+        /// <param name="wrapper">The command wrapper.</param>
+        /// <returns>The inner command.</returns>
+        public static explicit operator AdomdCommand(AdomdCommandWrapper wrapper)
+        {
+            return wrapper._innerCommand;
+        }
     }
 }
