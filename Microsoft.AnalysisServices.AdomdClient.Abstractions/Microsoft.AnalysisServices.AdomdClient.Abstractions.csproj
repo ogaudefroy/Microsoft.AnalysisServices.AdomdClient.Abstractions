@@ -48,8 +48,10 @@
   <ItemGroup>
     <Compile Include="AdomdCommandWrapper.cs" />
     <Compile Include="AdomdConnectionWrapper.cs" />
+    <Compile Include="AdomdDataAdapterWrapper.cs" />
     <Compile Include="IAdomdCommand.cs" />
     <Compile Include="IAdomdConnection.cs" />
+    <Compile Include="IAdomdDataAdapter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
