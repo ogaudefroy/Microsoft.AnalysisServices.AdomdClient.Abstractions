@@ -30,10 +30,6 @@
             {
                 return new AdomdCommandWrapper(_innerAdapter.SelectCommand);
             }
-            set
-            {
-                _innerAdapter.SelectCommand = (AdomdCommand)(AdomdCommandWrapper)value;
-            }
         }
 
         /// <inheritdoc />
@@ -123,6 +119,12 @@
         public IDataParameter[] GetFillParameters()
         {
             return _innerAdapter.GetFillParameters();
+        }
+
+        /// <inheritdoc />
+        public void Dispose()
+        {
+            _innerAdapter.Dispose();
         }
     }
 }

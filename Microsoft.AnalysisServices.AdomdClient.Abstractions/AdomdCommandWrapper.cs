@@ -83,6 +83,12 @@
         }
 
         /// <inheritdoc />
+        public IAdomdDataAdapter CreateDataAdapter()
+        {
+            return new AdomdDataAdapterWrapper(new AdomdDataAdapter(_innerCommand));
+        }
+
+        /// <inheritdoc />
         public int ExecuteNonQuery()
         {
             return _innerCommand.ExecuteNonQuery();
