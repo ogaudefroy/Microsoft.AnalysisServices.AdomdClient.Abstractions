@@ -10,6 +10,13 @@
     public interface IAdomdCommand : IDbCommand
     {
         /// <summary>
+        /// Creates a data adapter associated with the command.
+        /// Command is used as SelectCommand.
+        /// </summary>
+        /// <returns>The data adapter.</returns>
+        IAdomdDataAdapter CreateDataAdapter();
+
+        /// <summary>
         /// Runs the AdomdCommand, and returns either a CellSet or an AdomdDataReader.
         /// </summary>
         /// <returns>An object.</returns>
