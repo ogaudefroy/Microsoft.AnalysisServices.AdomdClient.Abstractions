@@ -17,4 +17,5 @@ Usage:
 
 NuGet Package available here: https://www.nuget.org/packages/Microsoft.AnalysisServices.AdomdClient.Abstractions/
 
-[![Build status](https://ci.appveyor.com/api/projects/status/cvc5bjubnj73j1jv?svg=true)](https://ci.appveyor.com/project/ogaudefroy/microsoft-analysisservices-adomdclient-abstraction)	
+[![NuGet version](https://badge.fury.io/nu/Microsoft.AnalysisServices.AdomdClient.Abstractions.svg)](https://badge.fury.io/nu/Microsoft.AnalysisServices.AdomdClient.Abstractions)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/ogaudefroy/Microsoft.AnalysisServices.AdomdClient.Abstractions/master/LICENSE)
